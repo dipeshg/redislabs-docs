@@ -27,6 +27,7 @@ Redis Cloud features the following access control mechanisms:
 - Source IP/Subnet ACL
 - Security Group ACL (on AWS cloud)
 
+
 If you use Redis Cloud on your own AWS infrastructure and deploy it on the same VPC as your application servers,
 we use a special set of AWS security permissions to limit access to only the instances required for running the Redis Cloud clusters.
 When deploying Redis Cloud on a different VPC from your application servers or under a different AWS account of yours,
